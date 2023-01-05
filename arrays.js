@@ -21,3 +21,10 @@ const arrFriends = ["Tara", "Egle", "Julia", "John"]
 const arrFriendsAdded = arrFriends.map((currentName)=>currentName+"hello");
 
 console.log(arrFriendsAdded);
+
+//Convert number array to boolean
+
+const numberArray = [0,1,2,3,4,5];
+const boolArray = numberArray.map((currentNumber)=>Boolean(currentNumber));
+
+console.log(boolArray);
