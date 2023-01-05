@@ -24,3 +24,10 @@ if (enteredName === "John"){
 } else{
   console.log("There is no such name")
 };
+
+// Determine type of argument
+
+function typeOf(x) {
+    console.log(typeof(x));
+}
+typeOf("hello");
