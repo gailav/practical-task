@@ -31,3 +31,13 @@ function typeOf(x) {
     console.log(typeof(x));
 }
 typeOf("hello");
+
+//Determine if number is prime or not
+
+function primeOrNot(x){
+  if (x % 2 === 1){
+    console.log("Number is prime");
+  } else{
+    console.log ("Number is not prime")
+}};
+primeOrNot(9);
