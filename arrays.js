@@ -35,3 +35,10 @@ const array = [1,6,7,8,3,4,5,6];
 array.sort().reverse();
 
 console.log(array);
+
+//Filter Array
+
+const arr3 = [1,6,7,8,3,4,5,6];
+const arr3Filtered = arr3.filter(currentNumber=>currentNumber>3);
+
+console.log(arr3Filtered);
