@@ -14,3 +14,10 @@ console.log(toString);
 
 const toArray = toString.split(",");
 console.log(toArray);
+
+//Names of friends
+
+const arrFriends = ["Tara", "Egle", "Julia", "John"]
+const arrFriendsAdded = arrFriends.map((currentName)=>currentName+"hello");
+
+console.log(arrFriendsAdded);
