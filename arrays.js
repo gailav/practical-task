@@ -28,3 +28,10 @@ const numberArray = [0,1,2,3,4,5];
 const boolArray = numberArray.map((currentNumber)=>Boolean(currentNumber));
 
 console.log(boolArray);
+
+//Sort array in descending order
+
+const array = [1,6,7,8,3,4,5,6];
+array.sort().reverse();
+
+console.log(array);
