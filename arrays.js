@@ -42,3 +42,11 @@ const arr3 = [1,6,7,8,3,4,5,6];
 const arr3Filtered = arr3.filter(currentNumber=>currentNumber>3);
 
 console.log(arr3Filtered);
+
+//Array and index
+
+const animals = ["cat", "dog", "horse", "cow", "donkey"];
+
+animals.forEach((element, index) => {
+console.log("Element index: " + index + " Element name: " + element);
+});
