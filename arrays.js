@@ -56,4 +56,13 @@ console.log("Element index: " + index + " Element name: " + element);
 let a=0
 for(a=0; a<10; a++){
   console.log([a]);
+};
+
+//Log prime and odd numbers to the console
+
+let b=2
+while(b<10){
+  b++
+  if (b%2===1){
+  console.log([b]);}
 }
