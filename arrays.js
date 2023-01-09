@@ -50,3 +50,10 @@ const animals = ["cat", "dog", "horse", "cow", "donkey"];
 animals.forEach((element, index) => {
 console.log("Element index: " + index + " Element name: " + element);
 });
+
+//Log number until it is less than 10
+
+let a=0
+for(a=0; a<10; a++){
+  console.log([a]);
+}
