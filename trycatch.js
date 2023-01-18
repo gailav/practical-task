@@ -7,3 +7,14 @@ try {
 catch {
   console.log ("Let must be declared before use")
 };
+
+//Number cannot be divided by zero
+
+const b = 1/0
+
+try{
+b!=infinity
+}
+catch {
+  console.log("Cannot be divided by 0")
+}
